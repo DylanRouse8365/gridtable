@@ -1,0 +1,21 @@
+/* CSS Document for table demonstration by Dylan 2023 */
+
+table{
+	border-collapse: collapse;
+	width: 70%;
+	margin: auto;
+}
+
+td, th{
+	border: 1px solid #000000;
+	padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #999799;
+}
+
+caption{
+	font-weight: bold;
+	font-size: 1.5em;
+}
